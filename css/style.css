@@ -5,6 +5,7 @@
   --clr-primary-dark: hsl(0, 0%, 8%);
   --clr-primary-light: hsl(0, 0%, 96%);
   --clr-primary-accent: hsl(0, 0%, 60%);
+  --clr-primary-dark-accent: hsl(0, 0%, 24%);
 
   --ff-primary: "Arial", sans-serif;
 }
@@ -148,7 +149,45 @@ p {
   text-transform: uppercase;
 }
 
+/* TABS SECTION */
+
+.tab {
+  background: var(--clr-primary-dark);
+  padding-top: 1rem;
+  border-bottom: 3px solid var(--clr-primary-dark-accent);
+}
+
+.tab__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.tab--text {
+  font-size: 1.2rem;
+  padding-top: 0.5rem;
+  color: var(--clr-primary-accent);
+}
+
+.tab--space {
+  padding: 1.5rem 0;
+}
+
+.tab--border {
+  border-bottom: 4px solid var(--clr-primary);
+}
+
 /* UTILITY CLASSES */
+
+.wrapper {
+  max-width: 75%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+}
 
 /* buttons */
 
