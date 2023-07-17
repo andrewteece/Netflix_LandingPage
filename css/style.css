@@ -149,7 +149,7 @@ p {
   text-transform: uppercase;
 }
 
-/* TABS SECTION */
+/* TAB SECTION */
 
 .tab {
   background: var(--clr-primary-dark);
@@ -178,6 +178,21 @@ p {
 
 .tab--border {
   border-bottom: 4px solid var(--clr-primary);
+}
+
+/* TAB CONTENT SECTION */
+
+.tab__content {
+  background: var(--clr-primary-dark);
+  color: var(--clr-primary-light);
+  padding: 3rem 0;
+}
+#tab-1-content .tab-1__content--inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
 }
 
 /* UTILITY CLASSES */
@@ -223,4 +238,28 @@ p {
   font-size: 1.5rem;
   padding: 0.8rem 1rem;
   text-transform: uppercase;
+}
+
+/* text */
+
+.text--xl {
+  font-size: 2rem;
+}
+
+.text--lg {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.text--md {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.text--center {
+  text-align: center;
+}
+
+.text--dark {
+  color: var(--clr-primary-dark);
 }
