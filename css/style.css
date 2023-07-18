@@ -195,6 +195,24 @@ p {
   justify-content: center;
 }
 
+#tab-2-content .tab-2__content--top {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#tab-2-content .tab-2__content--bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+
 /* UTILITY CLASSES */
 
 .wrapper {
@@ -262,5 +280,5 @@ p {
 }
 
 .text--dark {
-  color: var(--clr-primary-dark);
+  color: var(--clr-primary-accent);
 }
