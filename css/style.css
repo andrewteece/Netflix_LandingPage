@@ -213,6 +213,36 @@ p {
   margin-top: 2rem;
 }
 
+/* TABLE */
+
+.table {
+  width: 100%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table thead th {
+  text-transform: uppercase;
+  padding: 1rem;
+}
+
+.table tbody tr td {
+  color: var(--clr-primary-accent);
+  padding: 1rem 1.5rem;
+  text-align: center;
+}
+
+.table tbody tr td:first-child {
+  text-align: left;
+}
+
+.table tbody tr:nth-child(odd) {
+  background: var(--clr-primary-dark-accent);
+}
+
+/* FOOTER SECTION */
+
 /* UTILITY CLASSES */
 
 .wrapper {
