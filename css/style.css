@@ -243,6 +243,31 @@ p {
 
 /* FOOTER SECTION */
 
+.footer {
+  max-width: 75%;
+  margin: 1rem auto;
+  overflow: auto;
+}
+
+.footer,
+.footer a {
+  font-size: 0.8rem;
+  color: var(--clr-primary-accent);
+}
+
+.footer p {
+  margin-bottom: 1.5rem;
+}
+
+.footer .footer__cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
+}
+
+.footer li {
+  line-height: 1.6;
+}
 /* UTILITY CLASSES */
 
 .wrapper {
