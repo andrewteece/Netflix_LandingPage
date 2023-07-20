@@ -184,6 +184,11 @@ p {
   border-bottom: 4px solid var(--clr-primary);
 }
 
+.tab .wrapper > div:hover {
+  color: var(--clr-primary-light);
+  cursor: pointer;
+}
+
 /* TAB CONTENT SECTION */
 
 .tab__content {
@@ -215,6 +220,21 @@ p {
   align-items: center;
   text-align: center;
   margin-top: 2rem;
+}
+
+/* TAB--HIDE CONTENT */
+
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+  display: none;
+  opacity: 0;
+}
+
+.show {
+  display: block !important;
+  opacity: 1 !important;
+  transition: all 1000 ease-in;
 }
 
 /* TABLE */
@@ -321,6 +341,10 @@ p {
   font-size: 1.5rem;
   padding: 0.8rem 1rem;
   text-transform: uppercase;
+}
+
+.btn--icon {
+  margin-left: 1rem;
 }
 
 /* text */
